@@ -1,6 +1,17 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf820
-{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+public class Multiply extends ConsoleProgram
+{
+    public void run()
+    {
+        multiply(2, 20);
+        multiply(5, 19);
+        multiply(100, 15);
+        
+    }
+    
+    private void multiply(int a, int b)
+    {
+        int total = a * b;
+        System.out.println(total);
+    }
 }
+
