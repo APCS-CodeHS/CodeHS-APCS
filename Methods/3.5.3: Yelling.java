@@ -1,6 +1,3 @@
-public String yell(String text)
-{
-   String yell = text.toUpperCase();
-	 return yell;
+public String yell(String text) {
+	return text.toUpperCase();
 }
-
